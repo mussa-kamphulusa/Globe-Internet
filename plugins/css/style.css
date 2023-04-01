@@ -1,0 +1,332 @@
+/* script by -- code wizardX */
+
+li[class*=nav-item] > a:hover {
+    color: #c86400!important;
+}
+
+.collapsible-menu {
+    border-radius: 5px;
+    position     : relative;
+    top          : 35px;
+    padding      : 0;
+    background   : #c86400;
+}
+
+.collapsible-menu > li > a {
+    margin-bottom: 5px auto;
+    height       : 50px;
+    line-height  : 40px;
+}
+
+.collapsible-menu > li > a:first-child {
+    border-top-right-radius: 5px;
+    border-top-left-radius : 5px;
+}
+
+.collapsible-menu > li > a:last-child {
+    border-bottom-left-radius : 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.collapsible-menu > li a:hover, .collapsible-menu > .active {
+    background: #02021a;
+    color     : #c86400;
+}
+
+#terms-conditions {
+    position: absolute;
+    top     : 35px;
+    right   : 1px;
+}
+
+#italic {
+    font-style : italic;
+}
+
+.bold   {
+    font-weight: 500;
+    color      : #000000;
+}
+
+#footer .bold {
+    color: #ffffff;
+}
+
+.italic {
+    font-style : italic;
+}
+.slim   {
+    font-weight: 400;
+}
+
+#products .card {
+    transition: all .2s ease-in
+}
+
+#products .card:hover {
+    box-shadow   : 0 0 7px rgb(2, 71, 71);
+}
+
+#business-services img {
+    width        : 400px;
+    border-radius: 16px;
+}
+
+#business-services img:hover {
+    transition: all .3s ease-in-out;
+    box-shadow: 0 0 10px #646464 !important;
+    padding   : 10px;
+}
+
+img#about-us {
+    width : 180px;
+    height: auto;
+}
+
+#individual-services img {
+    width: 400px;
+}
+
+#individual-services img:hover {
+    transition   : all .3s ease-in-out;
+    border-radius: 15px;
+    box-shadow   : 0 0 10px #000000;
+    width        : 410px;
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    color          : #808080;
+}
+
+.breadcrumb-item {
+    color: #808080;
+}
+
+.breadcrumb-link[class*=active], .breadcrumb-link:hover {
+    color: #c86400;
+}
+
+.product-name {
+    font-size  : 130%;
+    font-weight: 100;
+    text-align : center;
+}
+
+
+#category a {
+    text-decoration: none;
+    color          : #000000;
+}
+
+#category a:hover {
+    text-decoration: underline;
+    color          : #0D6EFD;
+}
+
+#category a[class*=btn]:hover {
+    color          : #ffffff;
+    text-decoration: none;
+}
+
+.product-name ~ .btn-info:hover {
+    background  : #008b8b;
+    border-color: #008b8b;
+}
+
+#category-nav {
+    display: inline;
+}
+
+#category-nav li {
+    border-left  : 5px solid #0D6EFD;
+    border-right : 1px solid #c86400;
+    border-bottom: 1px solid #0D6EFD;
+    margin-bottom: 8px;
+}
+
+#category-nav li:hover, #category-nav li[class*=active] {
+    border-color      : #c86400;
+    border-top        : 1px solid #c86400;
+    border-right-width: 5px;
+}
+
+#category-nav li[class*=active] > a {
+    color: #c86400;
+}
+
+#category-nav .nav-link:hover {
+    text-decoration: none;
+}
+
+#category-nav a {
+    color: #0D6EFD;
+}
+
+#download-from-google-play > h2 {
+    font-weight: 200;
+}
+
+#playstore {
+    transition   : all .2s ease-in;
+    border-radius: 24px;
+    width        : 40%;
+}
+
+#playstore:hover {
+    box-shadow: 0 0 4px #808080;
+}
+
+#download-from-google-play img {
+    width : 100%;
+    height: 100%;
+}
+
+#mobile-app {
+    width          : 100px;
+    color          : #505050;
+    font-size      : 105%;
+    display        : block;
+    margin         : 5px auto;
+    text-align     : center;
+    text-decoration: none;
+}
+
+#mobile-app:hover, #globe-gps:hover {
+    text-decoration: underline;
+}
+
+#globe-gps {
+    text-decoration: none;
+    width          : 150px;
+}
+
+#packages img, #coverages img {
+    padding      : 5px;
+    border-radius: 10px;
+    width        : 100;
+    height       : 80px;
+    display      : block;
+    margin       : 10px auto;
+}
+
+#packages h3, #coverages h3 {
+    border-radius: 10px;
+    text-align   : center;
+    height       : 80px;
+    color        : #808080;
+    font-weight  : 400;
+    padding-top  : 5px;
+}
+
+#coverages h3, #packages h3 { color: rgb(73, 73, 73); }
+
+.package > img ~ div, .coverage > img ~ div {
+    font-size  : 140%;
+    font-weight: 400;
+    color      : rgb(88, 88, 88);
+}
+
+
+.social-icon {
+    border         : 1px solid #808080;
+    width          : 50px;
+    height         : 50px;
+    padding-top    : 15px;
+    border-radius  : 5px;
+    text-decoration: none;
+}
+
+.social-icons a[class*=facebook]  {
+    background: #5555be;
+    color     : white;
+}
+
+.social-icons a[class*=twitter]   {
+    background: #36f1d2;
+    color     : white;
+}
+
+.social-icons a[class*=instagram] {
+    background: linear-gradient(left, #800080, #ff0000, #ee82ee);
+    background: -webkit-linear-gradient(left, #800080, #ff0000, #ee82ee);
+    background: -moz-linear-gradient(left, #800080, #ff0000, #ee82ee);
+    color     : #ffffff;
+}
+
+.social-icons a:hover {
+    transition: all .2s ease-in-out;
+    border    : 1px solid #c86400;
+    color     : #c86400;
+    background: transparent;
+}
+
+#footer > div > a {
+    color          : #ffffff;
+    text-decoration: none;
+}
+
+#footer > div > a > p {
+    font-weight: 600;
+}
+
+#footer > div > a span {
+    font-weight: 100;
+}
+
+#call { font-size: 80%; }
+
+#call #fax {
+    font-weight   : 700;
+    padding       : 0 1px 0 5px;
+    letter-spacing: 1px;
+}
+
+#call #fax, #call i[class*=phone] {
+    color: #c86400 !important;
+}
+
+#call a {
+    color          : #37e795;
+    text-decoration: none;
+}
+
+#call a:hover {
+    color          : #c86400;
+    text-decoration: underline;
+}
+
+#scroll-to-top {
+    border       : 1px solid #ffffff;
+    background   : #0000004d;
+    border-radius: 10px;
+    position     : fixed;
+    bottom       : 30px;
+    right        : 20px;
+    padding      : 20px;
+}
+
+#scroll-to-top:hover {
+    background  : #000000b3;
+}
+
+#scroll-to-top > img {
+    width : 20px;
+    height: 20px;
+}
+
+#contact_webmaster a {
+    text-decoration: none;
+
+}
+
+#contact_webmaster a:hover {
+    text-decoration: underline;
+    color: #ffffff !important;
+}
+
+#contact_webmaster {
+    border: 1px solid #ffffff;
+    border-bottom-width: 10px;
+    border-bottom-color: #0dcaf0;
+}

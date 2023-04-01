@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globe Internet Malawi | Vehicle Tracker</title>
+    <link type="text/css" href="../plugins/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link type="text/css" href="../plugins/css/style.css" rel="stylesheet" crossorigin="anonymous">
+    <link type="text/css" href="../plugins/fontawesome-free-6.1.2-web/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+        h3[class*=slim] ~ ul:first-of-type > li      { margin-bottom: 5px; }
+        h3[class*=slim] ~ ul:last-of-type  > li      { margin-bottom: 2px; }
+        h3[class*=slim] ~ ul:last-of-type  > li > ul { list-style   : square; }
+    </style>
+</head>
+<body>
+    <!-- Main navigation -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <!-- Navigation bar -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../images/logo4.png" class="img-fluid" id="site-logo" style="width: 70px;">
+            </a>
+
+            <!-- Navigation toggle -->
+            <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#site-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Side navigation -->
+            <div class="offcanvas offcanvas-end text-bg-dark" id="site-nav">
+                <div class="offcanvas-header">
+                    <img src="../images/logo4.png" style="width: 100px">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                </div>
+
+                <!-- Navigation menu -->
+                <div class="offcanvas-body">
+
+                    <!-- Navigation links -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../about-us/index.html">About Us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Products & Services</a>
+                            <ul class="dropdown-menu collapsible-menu">
+                                <li><a class="dropdown-item active" href="../enterprise/index.html">Business Services</a></li>
+                                <li><a class="dropdown-item" href="../residential/index.html">Individual Services</a></li>
+                                <li><a class="dropdown-item" href="../value-added-services/index.html">Value Added Services</a></li>
+                                <li><a class="dropdown-item" href="../category/other-products/index.html">Other Products</a></li>
+                                <li><a class="dropdown-item" href="../downloads/index.html">Downloads</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../package-usage/index.html">Package Usage</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../coverage/index.html">Coverage</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="../press-room/index.html">Press Room</a></li> -->
+                        <!-- <li class="nav-item"><a class="nav-link" href="../blog/index.html">Blog</a></li> -->
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Contact Us</a>
+                            <ul class="dropdown-menu collapsible-menu">
+                                <li><a class="dropdown-item" href="../contact-us/index.html">Enquiries</a></li>
+                                <li><a class="dropdown-item" href="https://helpdesk.globemw.net/">Help Desk</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../buyonline.html">Buy Online</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Webmail</a>
+                            <ul class="dropdown-menu collapsible-menu">
+                                <li><a class="dropdown-item" href="https://hiru.globemw.net">Hiru - MailServer</a></li>
+                                <li><a class="dropdown-item" href="https://manel.globemw.net">Manel - MailServer</a></li>
+                                <li><a class="dropdown-item" href="https://sigiri.globemw.net/webmail">Sigiri - MailServer</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Covid-19</a>
+                            <ul class="dropdown-menu collapsible-menu">
+                                <li><a class="dropdown-item" href="../cashless-payments/index.html">Cashless Payment</a></li>
+                                <li><a class="dropdown-item" href="../covid-19-safety-measures/index.html">Safety Measures</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Kawawa Bundles</a>
+                            <ul id="terms-conditions" class="dropdown-menu collapsible-menu">
+                                <li><a class="dropdown-item" href="../terms-conditions/index.html">Terms & Conditions</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation search -->
+    <div class="container-fluid py-1 px-3 bg-dark">
+        <!-- Navigation search form -->
+        <form>
+            <div class="input-group my-2">
+                <input type="text" class="form-control" name="search" id="search" placeholder="Search">
+                <button type="submit" class="btn btn-outline-danger">Search</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Breadcrumbs -->
+    <div class="container-fluid mb-4 mt-2">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link" href="../index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item">Products & Services</li>
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link" href="../enterprise/index.html">Business Services</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link active" href="index.html">Vehicle Tracker</a>
+            </li>
+        </ul>
+        <!-- Main content -->
+    </div>
+
+    <!-- Main content -->
+    <div class="container">
+        <h1 class="display-6">Vehicle Tracker</h1>
+        <img src="../images/v-tracker-1024x363.jpg" class="img-fluid my-4">
+
+        <h1 class="display-6 mb-3">GPS Tracking & Fleet Management</h1>
+        <p>
+            This is a best selling cloud based solution for tracking of vehicles and 
+            valuable assets. In a restrictive economy you need to be sure that your 
+            money is effectively and efficiently utilized. Globe Vehicle Tracking and 
+            fleet management can help you achieve this goal by giving detailed vehicle 
+            information online at your fingertips 24/7,365 days a year. This is the 
+            most economic and affordable solution because Malawi is the most price 
+            conscious market and value for money is the most important factor.
+        </p>
+        <p class="bold mb-1">How It Works</p>
+        <p class="mt-0 mb-0">
+            Vehicle tracking system provides live GPS tracking capability that enables 
+            tracking up to minute-by-minute information and management of your vehicles, 
+            through the easy-to-use web interface which is the most convenient way to 
+            track your vehicles using computer or any mobile device at any time.
+        </p>
+
+        <h3 class="mt-5 mb-3 slim">Core Features</h3>
+        <ul class="mb-5">
+            <li>
+                <span class="bold">Real Time / Live Tracking:</span> See current location 
+                of your vehicle in real time on maps with great detail anytime and anywhere. 
+                We are completely on cloud based technology. This solution supports up to 
+                10 seconds data updates.
+            </li>
+            <li><span class="bold">SMS and Email Alerts:</span> The system generates instant 
+                SMS and Email alerts in case of any abnormal activities like device tempering 
+                or over-speeding etc.
+            </li>
+            <li><span class="bold">Stop your vehicle by SMS:</span> You can immobilize or stop 
+                your vehicle by sending an SMS.
+            </li>
+            <li><span class="bold">Mobile App for you:</span> Now you can see your vehicle 
+                location on the go. We have mobile application for your favorite Android 
+                Phone and iPhone. Its also supports tablets as well.
+            </li>
+            <li><span class="bold">Geofence and Landmarks:</span> Create fencing and whenever 
+                your vehicle enter or leave this fence, our system push you alert messages.
+            </li>
+            <li><span class="bold">History Log:</span> GPS data of your vehicle is stored 
+                online for past 90 days. Do not worry!!! You can download these reports 
+                and keep them forever.
+            </li>
+            <li><span class="bold">Fleet Information System:</span> From vehicle location to 
+                fuel usage, idle time, engine diagnostic codes, and more, Fleet Management 
+                system provides the accurate, timely data you need to make smart fleet 
+                management decision.
+            </li>
+            <li><span class="bold">Anywhere, Anytime Information:</span> Access reports and 
+                vehicle information from desktop, laptop, smart phone or tablet.
+            </li>
+        </ul>
+
+        <h3 class="mt-5 mb-3 slim">Installation and Support</h3>
+        <ul class="mb-5">
+            <li>Our easy-to-install GPS device takes 30 minutes to set up</li>
+            <li>The design of the Globe GPS device makes it simple and easy to install:
+                <ul class="mb-3">
+                    <li>Easy two-wire (power and ground) installation and set-up</li>
+                    <li>Sleek profile that allows for more flexible and covert installation</li>
+                    <li>No antenna wires needed — comes built-in with the device</li>
+                </ul>
+            </li>
+            <li>24/7 Call Centre – GIL has dedicated and highly trained personnel at your 
+                disposal that can deal with your vehicle tracking emergencies in a professional 
+                manner.</li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid text-bg-dark p-4 pb-2 mb-0">
+        <div class="row" id="footer">
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <p class="bold">FIND US</p>
+                <address>
+                    <i class="fas fa-map-marker-alt text-success"></i>
+                    Citrona House,<br>
+                    (Old Uniliver offices),<br>
+                    Along Tsirana Road,<br>
+                    <i class="fas fa-envelope text-success"></i>
+                    P.O. Box 5025,<br>
+                    Limbe, Malawi
+                </address>
+            </div>
+
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <p class="bold text-center">SOCIAL MEDIA</p>
+                <div class="social-icons">
+                    
+                    <a href="https://www.facebook.com/globeinternet/" class="social-icon fab fa-facebook-f"></a>
+                    <a href="https://twitter.com/globemalawi" class="social-icon fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/globe_internet_malawi/" class="social-icon fab fa-instagram"></a>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <a class="plain" href="https://webmail.globemw.net/">
+                    <img src="../images/glmax.png">
+                    <p class="mb-0 mt-2">GlobeMW Webmail</p><span>Access Globe Webmail.</span>
+            </div>
+
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <a class="plain" href="http://mail.globemax4g.com/webmail/src/login.php">
+                    <img src="../images/glmax.png">
+                    <p class="mb-0 mt-2">GlobeMax4G Webmail</p><span>Access GlobeMax4G Webmail.</span>
+            </div>
+
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <a class="plain" href="https://helpdesk.globemw.net/">
+                    <img src="../images/helpdesk.png">
+                    <p class="mb-0 mt-2">Help Desk Get</p><span>technical support</span>
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <a class="plain" href="../speedtest/index.html">
+                    <img src="../images/spt.png">
+                    <p class="mb-0 mt-2">Speed Test</p><span>Test your internet speed.</span>
+                </a>
+            </div>
+        </div>
+        <p id="call" class="text-center w-100 shadow-lg py-3">
+            <i class="fas fa-phone text-success"></i>&nbsp;
+            <a href="tel:0996841044">+265&nbsp;996&nbsp;841&nbsp;044</a>; 
+            <span id="fax">Fax</span>: 
+            <a href="tel:01841854">+265&nbsp;184&nbsp;1854</a> | 
+            Copyrights &copy; 2023 Globe Internet Limited, Malawi
+        </p>
+    </div>
+    <a id="scroll-to-top" href="#top" title="Back To Top">
+        <img src="../images/up.png">
+    </a>
+
+    <script type="text/javascript" src="../plugins/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="../plugins/js/script.js"></script>
+    <script type="text/javascript" src="../plugins/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

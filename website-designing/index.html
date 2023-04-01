@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globe Internet Malawi | Web Designing & Development</title>
+    <link type="text/css" href="../plugins/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link type="text/css" href="../plugins/css/style.css" rel="stylesheet" crossorigin="anonymous">
+    <link type="text/css" href="../plugins/fontawesome-free-6.1.2-web/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+        h3[class*=slim] ~ ol > li { margin: 5px; }
+    </style>
+</head>
+<body>
+    <!-- Main navigation -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <!-- Navigation bar -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../images/logo4.png" class="img-fluid" id="site-logo" style="width: 70px;">
+            </a>
+
+            <!-- Navigation toggle -->
+            <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#site-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Side navigation -->
+            <div class="offcanvas offcanvas-end text-bg-dark" id="site-nav">
+                <div class="offcanvas-header">
+                    <img src="../images/logo4.png" style="width: 100px">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                </div>
+
+                <!-- Navigation menu -->
+                <div class="offcanvas-body">
+
+                    <!-- Navigation links -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../about-us/index.html">About Us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Products & Services</a>
+                            <ul class="dropdown-menu collapsible-menu">
+                                <li><a class="dropdown-item" href="../enterprise/index.html">Business Services</a></li>
+                                <li><a class="dropdown-item" href="../residential/index.html">Individual Services</a></li>
+                                <li><a class="dropdown-item" href="../value-added-services/index.html">Value Added Services</a></li>
+                                <li><a class="dropdown-item active" href="../category/other-products/index.html">Other Products</a></li>
+                                <li><a class="dropdown-item" href="../downloads/index.html">Downloads</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../package-usage/index.html">Package Usage</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../coverage/index.html">Coverage</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="../press-room/index.html">Press Room</a></li> -->
+                        <!-- <li class="nav-item"><a class="nav-link" href="../blog/index.html">Blog</a></li> -->
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Contact Us</a>
+                            <ul class="dropdown-menu collapsible-menu">
+                                <li><a class="dropdown-item" href="../contact-us/index.html">Enquiries</a></li>
+                                <li><a class="dropdown-item" href="https://helpdesk.globemw.net/">Help Desk</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../buyonline.html">Buy Online</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Webmail</a>
+                            <ul class="dropdown-menu collapsible-menu">
+                                <li><a class="dropdown-item" href="https://hiru.globemw.net">Hiru - MailServer</a></li>
+                                <li><a class="dropdown-item" href="https://manel.globemw.net">Manel - MailServer</a></li>
+                                <li><a class="dropdown-item" href="https://sigiri.globemw.net/webmail">Sigiri - MailServer</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Covid-19</a>
+                            <ul class="dropdown-menu collapsible-menu">
+                                <li><a class="dropdown-item" href="../cashless-payments/index.html">Cashless Payment</a></li>
+                                <li><a class="dropdown-item" href="../covid-19-safety-measures/index.html">Safety Measures</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Kawawa Bundles</a>
+                            <ul id="terms-conditions" class="dropdown-menu collapsible-menu">
+                                <li><a class="dropdown-item active" href="../terms-conditions/index.html">Terms & Conditions</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation search -->
+    <div class="container-fluid py-1 px-3 bg-dark">
+        <!-- Navigation search form -->
+        <form>
+            <div class="input-group my-2">
+                <input type="text" class="form-control" name="search" id="search" placeholder="Search">
+                <button type="submit" class="btn btn-outline-danger">Search</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Breadcrumbs -->
+    <div class="container-fluid mb-4 mt-2">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link" href="../index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link active" href="index.html">
+                    Web Designing & Development
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main content -->
+    <div class="container">
+        <img src="../images/web-design-1080x380.jpg" class="img-fluid">
+        <h1 class="display-6 mb-4 mt-3">Web Designing & Development</h1>
+        <p>Are you looking for a professional, yet affordable web page design/Development?</p>
+        <p>Are you looking for a reputable web development company?</p>
+        <p>
+            When you call on Globe Internet for your website development needs, you’ll be 
+            calling on a professional development company that prides itself on supplying 
+            visually stunning custom web page design that helps your business work better, 
+            Clean web design that keeps your visitors happy, and a professional custom web 
+            development solution that has our clients doing more business on-line than ever 
+            before.
+        </p>
+        <p>
+            Professional website development requires a lot more than a flashy, brightly 
+            coloured animations and stock photos. It takes knowledge of high design principles, 
+            tried and tested web design and development company, usability studies and new 
+            web development technology that’ll help your company deliver to more potential 
+            customers. All our staff and management know professional website design inside 
+            and out, the proof of that is in our website itself. Globe Internet is a 
+            professional web development company that stands for quality, clean website 
+            development and outstanding customer support. We design only the best!
+        </p>
+        <p>
+            We’ve seen companies struggle with new web design technology, and web design 
+            companies that never delivered on their promises. Your Globe Internet project 
+            is guaranteed. Our guarantee is supported by an active Quality Assurance and 
+            support program that begins with the first contact and continues long past 
+            your acceptance of the final work. The Globe Internet client is assured of 
+            performance and satisfaction.
+        </p>
+        <p>
+            Globe Internet is a leading Website Development and web design company. 
+            For more information about Globe Internet Website Development and Ecommerce 
+            web design and development services, please Contact Us for a free website 
+            design Quote today !
+        </p>
+
+        <h3 class="mt-5 mb-3 slim">Development Process</h3>
+        <ol>
+            <li><span class="bold">Needs Analysis: </span> We ask questions and pay 
+                attention to the answers. We want to understand your audience and 
+                your competition.
+            </li>
+            <li>Identify any back-end programming needs</li>
+            <li><span class="bold">Generate a Quotation: </span>We generate a quotation, 
+                identifying your website requirements. We begin your project when both 
+                requirements and costs have been approved by you
+            </li>
+            <li><span class="bold">Design: </span>
+                We offer a choice of designs, including suggested content, 
+                for your approval.When the final design has been approved, 
+                we begin application of our Quality Assurance program. 
+                We finalize graphic design, integrate content, and perform browser, 
+                platform and content checks. Then we conduct bug checks and broken 
+                links checks.<br><br>
+                We’re flexible: We recognize that project objectives sometimes change 
+                after the initial project development stage.
+                <br>
+                We’re with you all the way.
+            </li>
+            <li><span class="bold">Upload: </span>When your website complies with project 
+                objectives and has passed all Quality Assurance checks, we get your final 
+                approval and upload to the server.<br><br>
+                Then, we stand behind our product to insure your satisfaction. 
+                We offer continued contract ,technical, maintenance, management and 
+                hosting support as well as search engine Optimizations.
+            </li>
+        </ol>
+
+        <h3 class="mt-5 mb-3 slim">Basic Website Components</h3>
+        <ul class="list-unstyled">
+            <li>Domain Name Registration</li>
+            <li> Web Site Hosting</li>
+            <li> Web planning, design and development time</li>
+            <li> Web planning, design and development Cost</li>
+            <li> Website Maintenance</li>
+            <li> Marketing your website online</li>
+        </ul>
+
+        <h3 class="mt-5 mb-3 slim">Important Factors that Contribute to Website Cost</h3>
+        <p class="bold mb-2">
+            When trying to budget web design costs there are a number of factors to consider:
+        </p>
+        <ul class="list-unstyled ms-1">
+            <li>Is this a brand new site or a redesign?</li>
+            <li>How prepared are you, do you have a detailed requirements document?</li>
+            <li>Do you need a blog or content management functionality (CMS)?</li>
+            <li>Do you have graphics already created for the site?</li>
+            <li>Do you want the site to automatically resize for mobile and tablets?</li>
+            <li>Do you need multimedia (Flash, video, etc.) on the site?</li>
+            <li>How much content do you have and how much do you need created?</li>
+            <li>Do you need other special features like social media channels, 
+                SEO, ecommerce, or something else?
+            </li>
+            <li> Who is going to maintain the site after it has been launched?</li>
+        </ul>
+        <p>
+            Below we go into greater detail regarding these items and an estimate of how 
+            much you should budget for them.<br>
+            Prices will most probably be higher or lower depending on your specific 
+            requirements. Be sure to contact us for an estimate.
+        </p>
+
+        <h3 class="mt-5 mb-3 slim">Solutions</h3>
+        <ul class="list-unstyled">
+            <li>Static Websites</li>
+            <li> Dynamic WebSites</li>
+            <li> Content Management Systems (CMS)</li>
+            <li> E-Commerce webSites</li>
+            <li> E-Business Website</li>
+            <li> Member-only sites</li>
+            <li> Custom Programming</li>
+            <li> Rich Internet Applications(RIA)</li>
+            <li> Intranets and Extranets Applications</li>
+        </ul>
+        <img src="../images/webdev.png" class="img-fluid my-4">
+
+        <p class="mt-3">The following is a list of technologies that we can use to develop 
+            your website.
+        </p>
+        <dl>
+            <dt>Front-End Design</dt>
+            <dd>
+                <ul class="list-unstyled ms-2">
+                    <li>HTML/HTML5</li>
+                    <li> CSS/CSS3</li>
+                    <li> JavaScripts</li>
+                    <li> Bootstrap</li>
+                    <li> JQuery Mobile (Mobile Apps)</li>
+                </ul>
+            </dd>
+            <dt>Back-End Development</dt>
+            <dd>
+                <ul class="list-unstyled ms-2">
+                    <li>PHP</li>
+                    <li> Java/JQuery</li>
+                    <li> Cold-fusion</li>
+                    <li> ASP.NET</li>
+                    <li> Android (Mobile Apps)</li>
+                </ul>
+            </dd>
+            <dt>Databases</dt>
+            <dd>
+                <ul class="list-unstyled ms-2">
+                    <li>MySql</li>
+                    <li> Microsoft Sql</li>
+                    <li> Access & XML</li>
+                </ul>
+            </dd>
+        </dl>
+        <img src="../images/web-development.jpg" class="img-fluid mt-2 mb-5">
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid text-bg-dark p-4 pb-2 mb-0">
+        <div class="row" id="footer">
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <p class="bold">FIND US</p>
+                <address>
+                    <i class="fas fa-map-marker-alt text-success"></i>
+                    Citrona House,<br>
+                    (Old Uniliver offices),<br>
+                    Along Tsirana Road,<br>
+                    <i class="fas fa-envelope text-success"></i>
+                    P.O. Box 5025,<br>
+                    Limbe, Malawi
+                </address>
+            </div>
+
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <p class="bold text-center">SOCIAL MEDIA</p>
+                <div class="social-icons">
+                    
+                    <a href="https://www.facebook.com/globeinternet/" class="social-icon fab fa-facebook-f"></a>
+                    <a href="https://twitter.com/globemalawi" class="social-icon fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/globe_internet_malawi/" class="social-icon fab fa-instagram"></a>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <a class="plain" href="https://webmail.globemw.net/">
+                    <img src="../images/glmax.png">
+                    <p class="mb-0 mt-2">GlobeMW Webmail</p><span>Access Globe Webmail.</span>
+            </div>
+
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <a class="plain" href="http://mail.globemax4g.com/webmail/src/login.php">
+                    <img src="../images/glmax.png">
+                    <p class="mb-0 mt-2">GlobeMax4G Webmail</p><span>Access GlobeMax4G Webmail.</span>
+            </div>
+
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <a class="plain" href="https://helpdesk.globemw.net/">
+                    <img src="../images/helpdesk.png">
+                    <p class="mb-0 mt-2">Help Desk Get</p><span>technical support</span>
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md text-center m-2 p-3 shadow-lg">
+                <a class="plain" href="../speedtest/index.html">
+                    <img src="../images/spt.png">
+                    <p class="mb-0 mt-2">Speed Test</p><span>Test your internet speed.</span>
+                </a>
+            </div>
+        </div>
+        <p id="call" class="text-center w-100 shadow-lg py-3">
+            <i class="fas fa-phone text-success"></i>&nbsp;
+            <a href="tel:0996841044">+265&nbsp;996&nbsp;841&nbsp;044</a>; 
+            <span id="fax">Fax</span>: 
+            <a href="tel:01841854">+265&nbsp;184&nbsp;1854</a> | 
+            Copyrights &copy; 2023 Globe Internet Limited, Malawi
+        </p>
+    </div>
+    <a id="scroll-to-top" href="#top" title="Back To Top">
+        <img src="../images/up.png">
+    </a>
+
+    <script type="text/javascript" src="../plugins/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="../plugins/js/script.js"></script>
+    <script type="text/javascript" src="../plugins/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
